@@ -6,13 +6,14 @@ class Cover extends Component {
     return (
       <div>
         <div className="cover">
-          <div className="text">
-            <h2>OUR TEAM</h2>
+          <div className="curve">
+          <div className="fig">
+            <div>
+              <h2 className="head-text">OUR TEAM</h2>
+            </div>
           </div>
-          <span className="text1">
-            We share the vision and values together.
-          </span>
-          {/* <div className="fig"></div> */}
+          </div>
+          
         </div>
         <br></br>
         <br></br>

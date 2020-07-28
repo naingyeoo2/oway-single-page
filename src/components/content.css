@@ -11,7 +11,7 @@
   /* height: 1000px; */
   background-color: #ffffff;
 }
-.head-text {
+.head-text1 {
   text-align: center;
   font: Bold 20px/40px Lato;
   letter-spacing: 1.25px;
@@ -26,15 +26,34 @@
   color: #faa534;
   opacity: 1;
 }
-.forcard{
+.forcard {
   overflow: hidden;
   width: auto;
   height: auto;
 }
-.line-break{
+.line-break {
   width: 50%;
-  border: 3px solid #EBEBEB;
+  border: 3px solid #ebebeb;
   opacity: 1;
   margin-left: 25%;
   margin-bottom: 40px;
+}
+.for-strategy {
+  overflow: hidden;
+}
+.head-text2 {
+  text-align: center;
+  font: Bold 25px/40px Lato;
+  letter-spacing: 1.25px;
+  color: #3a3a3a;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.text3 {
+  text-align: center;
+  font: Regular 15px/40px Lato;
+  letter-spacing: 0.75px;
+  color: #faa534;
+  opacity: 1;
+  margin-bottom: 50px;
 }
