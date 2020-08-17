@@ -7,7 +7,6 @@ import Cover from "./Cover";
 import "./PersonalInfo.css";
 import Content from "./Content";
 import Footer from "./Footer";
-import BgPhoto from "./BgPhoto";
 
 class PersonalInfo extends Component {
   render() {
@@ -16,7 +15,6 @@ class PersonalInfo extends Component {
         <Header />
         <NavBar />
         <Cover />
-        {/* <BgPhoto /> */}
         <Content />
         <Footer />
       </div>
