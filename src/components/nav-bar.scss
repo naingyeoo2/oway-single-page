@@ -1,0 +1,23 @@
+.nav {
+    max-width: 100%;
+    .ant-menu {
+      max-width: 100%;
+      border-radius: 10px 10px 0 0;
+      padding: 15px;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .nav {
+      .ant-menu {
+        padding: 5px;
+        border-radius: 10px 10px 0 0;
+        overflow: auto;
+        white-space: nowrap;
+      }
+    }
+  }
+  @media only screen and (max-width: 768px){
+      .nav {
+          display: none;
+      }
+  }

@@ -1,50 +1,54 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 .card{
-    width: 200px;
-    height: 400px;
+    flex: 0 22%;
     opacity: 1;
-    float: left;
-    margin: 10px;
+    margin-bottom: 30px;
+    /* width: 100%; */
+    /* height: 450px; */
+    cursor: pointer;
+    /* margin-right: 10px; */
 }
-.photo{
+.image-block {
     width: 100%;
-    height: 300px;
+    /* height: 90%; */
+}
+.image{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 5px;
 }
-.photo:hover{
-    box-shadow: 0px 3px 6px #00000029;
+.card:hover .image{
+    box-shadow: 0px 3px 2px #00000029;
     mix-blend-mode: normal;
 }
 .info{
+    display: inline-block;
     width: 100%;
     height: auto;
     text-align: left;
-    padding-left: 0px;
     border-radius: 10px;
     padding: 5px;
-}
-.info:hover{
-    box-shadow: 0px 3px 6px #00000029;
 }
 .name{
     text-transform: uppercase;
     opacity: 1;
-    font: Bold 18px/40px Lato;
+    font: Bold 18px/40px;
     letter-spacing: 0.9px;
 }
 .position{
-    font: Regular 15px/40px Lato;
+    font: Regular 15px/40px;
     letter-spacing: 0px;
     color: #FAA534;
     opacity: 1;
 }
-.image{
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+@media only screen and (max-width: 992px) {
+    .card {
+      flex: 0 49%;
+    }
+  }
+@media only screen and (max-width: 768px) {
+  .promotion-card {
+    flex: 1 100%;
+  }
 }

@@ -1,0 +1,60 @@
+.content {
+  .head-text {
+    text-align: center;
+    margin-bottom: 20px;
+
+    .header-text1 {
+      text-align: center;
+      font: Bold 20px/40px;
+      letter-spacing: 1.25px;
+      color: #3a3a3a;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+    .header-text2 {
+      text-align: center;
+      font: Regular 10px/40px;
+      letter-spacing: 0.75px;
+      color: #faa534;
+      opacity: 1;
+    }
+  }
+  .ourteam {
+    justify-content: space-between;
+  }
+  .forcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .line-break {
+    width: 50%;
+    border: 2px solid #ebebeb;
+    opacity: 1;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .for-strategy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .head-text2 {
+    text-align: center;
+    font: Bold 25px/40px Lato;
+    letter-spacing: 1.25px;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .text3 {
+    text-align: center;
+    font: Regular 15px/40px Lato;
+    letter-spacing: 0.75px;
+    color: #faa534;
+    opacity: 1;
+    margin-bottom: 50px;
+  }
+}

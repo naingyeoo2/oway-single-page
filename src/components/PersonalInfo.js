@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import Header from "./Header";
-import NavBar from "./NavBar";
 import Cover from "./Cover";
 
 import "./PersonalInfo.css";
@@ -13,7 +12,6 @@ class PersonalInfo extends Component {
     return (
       <div>
         <Header />
-        <NavBar />
         <Cover />
         <Content />
         <Footer />

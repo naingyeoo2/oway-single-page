@@ -9,7 +9,7 @@ class Cover extends Component {
           <div className="curve">
           <div className="fig">
             <div>
-              <h2 className="head-text">OUR TEAM</h2>
+              <h2 className="cover-text">OUR TEAM</h2>
             </div>
           </div>
           </div>
